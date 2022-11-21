@@ -1,0 +1,393 @@
+/* X-Large devices (large desktops, 1200px to 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.testimonial_carousel .padding,
+	.icon_carousel .padding,
+	.team_carousel .padding {
+		padding: 0 3%;
+	}
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* header */
+	.main_menu {
+		margin-right: 0px;
+	}
+	.main_menu li {
+		margin: 0px;
+	}
+	.main_menu li a {
+		padding: 20px 10px;
+	}
+
+	/* footer */
+	.footer_logo {
+		margin-right: 25px;
+	}
+
+	/* carousel */
+	.testimonial_carousel .padding,
+	.icon_carousel .padding,
+	.team_carousel .padding {
+		padding: 0 3%;
+	}
+	/* testimonial */
+	.testimonial_wrapper .single_slide {
+		margin: 0 15px;
+	}
+	.testimonial_wrapper .sliders .slick-list {
+		margin-left: -15px;
+		margin-right: -100px;
+	}
+	.testimonial_wrapper .sliders .slick-list.hasPadding {
+		margin-left: -100px;
+		margin-right: -15px;
+	}
+	.testimonial_wrapper .slick-dots {
+		margin-top: 100px;
+	}
+
+	/* icon carousel */
+	.icon_wrapper .single_slide {
+		margin: 0 15px;
+	}
+	.icon_wrapper .sliders .slick-list {
+		margin-left: -15px;
+		margin-right: -100px;
+	}
+	.icon_wrapper .sliders .slick-list.hasPadding {
+		margin-left: -100px;
+		margin-right: -15px;
+	}
+
+	/* team carousel */
+	.team_wrapper .single_slide {
+		margin: 0 15px;
+	}
+	.team_wrapper .sliders .slick-list {
+		margin-left: -15px;
+		margin-right: -100px;
+	}
+	.team_wrapper .sliders .slick-list.hasPadding {
+		margin-left: -100px;
+		margin-right: -15px;
+	}
+	.team_wrapper .single_slide .team_title,
+	.team_wrapper .single_slide .team_content {
+		padding: 0 20px;
+	}
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* header */
+	.main_menu {
+		margin-right: 0px;
+	}
+	.main_menu li {
+		margin: 0px;
+	}
+	.main_menu li a {
+		padding: 20px 10px;
+	}
+	.navigation_button .btn.btn-small {
+		width: 115px;
+	}
+	.navigation_button {
+		display: none;
+	}
+
+	/* footer */
+	.site_footer {
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.footer_widget {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	#footer-menu {
+		display: block;
+	}
+
+	#footer-menu .widget_inner .footer_menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#footer-menu .widget_inner .footer_menu li {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.footer_widget .footer_right {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.footer_widget .footer_right .footer_button {
+		flex: unset;
+		margin-bottom: 30px;
+	}
+
+	.footer_widget .footer_right .footer_socials {
+		flex: unset;
+		margin-bottom: 0;
+	}
+
+	/* carousel */
+	.testimonial_carousel .padding,
+	.icon_carousel .padding,
+	.team_carousel .padding {
+		padding-right: calc(var(--bs-gutter-x) * 0.5);
+		padding-left: calc(var(--bs-gutter-x) * 0.5);
+	}
+
+	/* Testimonial */
+	.testimonial_wrapper .single_slide {
+		margin: 0 15px;
+	}
+	.testimonial_wrapper .sliders .slick-list {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+	.testimonial_wrapper .sliders .slick-list.hasPadding {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 100px;
+	}
+	.testimonial_wrapper .slick-dots {
+		margin-top: 100px;
+	}
+
+	/* icon carousel */
+	.icon_wrapper .single_slide {
+		margin: 0 15px;
+	}
+	.icon_wrapper .sliders .slick-list {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+	.icon_wrapper .sliders .slick-list.hasPadding {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 100px;
+	}
+
+	/* team carousel */
+	.team_wrapper .single_slide {
+		margin: 0 15px;
+	}
+	.team_wrapper .sliders .slick-list {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+	.team_wrapper .sliders .slick-list.hasPadding {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 100px;
+	}
+	.team_wrapper .single_slide .team_title,
+	.team_wrapper .single_slide .team_content {
+		padding: 0 20px;
+	}
+
+	/* Faq */
+	.tj_faq_accordion .accordion-item .accordion-header .accordion-button img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.tj_faq_accordion .accordion-item .accordion-header .accordion-button {
+		font-size: 25px;
+	}
+
+	.tj_faq_accordion .accordion-item .accordion-header .accordion-button:before {
+		font-size: 25px;
+	}
+}
+
+/* X-Small devices (small mobile) (portrait phones, less than 767px) */
+@media only screen and (max-width: 767px) {
+	.site_footer {
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.footer_widget {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+	.footer_logo {
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+	.footer_widget .footer_right .footer_button {
+		display: none;
+	}
+
+	.footer_widget .footer_right .footer_socials {
+		margin-bottom: 0;
+	}
+	.footer_socials li {
+		margin: 0 20px;
+	}
+
+	/* carousel */
+	.testimonial_carousel .padding,
+	.icon_carousel .padding,
+	.team_carousel .padding {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	/* Testimonial */
+	.testimonial_wrapper .single_slide {
+		margin: 0px 7px;
+		padding: 30px 15px;
+	}
+	.testimonial_wrapper .sliders .slick-list {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.testimonial_wrapper .sliders .slick-list.hasPadding {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 30px;
+	}
+	.testimonial_wrapper .slick-dots {
+		margin-top: 50px;
+	}
+
+	.testimonial_wrapper .testi_img img {
+		height: 95px;
+		width: 95px;
+	}
+	.testimonial_wrapper .single_slide .testi_title h5 {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.testimonial_wrapper .single_slide .testi_content p {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	/* icon carousel */
+	.icon_wrapper .single_slide {
+		margin: 0px 7px;
+		padding: 30px 15px;
+	}
+	.icon_wrapper .sliders .slick-list {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.icon_wrapper .sliders .slick-list.hasPadding {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 30px;
+	}
+	.icon_wrapper .slick-dots {
+		margin-top: 50px;
+	}
+	.icon_wrapper .single_slide .icon_title h5 {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.icon_wrapper .single_slide .icon_content p {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	/* team carousel */
+
+	.team_wrapper .single_slide {
+		margin: 0px 7px;
+	}
+	.team_wrapper .sliders .slick-list {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.team_wrapper .sliders .slick-list.hasPadding {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-right: 30px;
+	}
+	.team_wrapper .slick-dots {
+		margin-top: 50px;
+	}
+	.team_wrapper .single_slide .team_title,
+	.team_wrapper .single_slide .team_content {
+		padding: 0 15px;
+	}
+	.team_wrapper .single_slide .team_title h5 {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.team_wrapper .single_slide .team_content p {
+		font-size: 14px;
+		line-height: 19px;
+		padding-bottom: 20px;
+	}
+
+	/* video Section */
+	.video_wrapper {
+		width: 100%;
+		height: 260px;
+		padding: 15px;
+	}
+	.video_wrapper .video_text {
+		font-size: 15px;
+	}
+
+	/* FAQ */
+
+	.tj_faq_accordion .accordion-item .accordion-header .accordion-button img {
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+	}
+
+	.tj_faq_accordion .accordion-item .accordion-header .accordion-button {
+		font-size: 20px;
+		line-height: 29px;
+	}
+
+	.tj_faq_accordion .accordion-item .accordion-header .accordion-button:before {
+		font-size: 20px;
+	}
+	.tj_faq_accordion .accordion-item .accordion-body {
+		padding-left: 40px;
+	}
+
+	.tj_faq_accordion .accordion-item .accordion-body p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	/* elementor */
+	.elementor .elementor-heading-title {
+		font-weight: 600 !important;
+	}
+}
+
+/* Small devices (large mobile) (landscape phones, 480px to 767px) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
